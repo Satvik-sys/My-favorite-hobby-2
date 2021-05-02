@@ -1,0 +1,41 @@
+body{
+background:linear-gradient(#E91E63 0%, #42A5F5 100%);
+  text-align:center;
+}
+
+.line{
+  height: 6px;
+  background-color: black;
+  width: 200px;
+  margin: 8px auto;
+}
+
+img{
+border-radius:50%;
+    margin-top: 50px;
+}
+
+p{
+max-width:500px;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  margin: 25px auto;
+}
+.link{
+    font-family: "Audiowide",cursive;
+float: left;
+    color: white;
+    padding: 10px;
+}
+
+.menu{
+list-style: none;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.link:hover{
+  background-color: blue;
+}
